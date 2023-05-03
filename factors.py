@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""this function reads numbers.txt line by line and compute the first
+two numbers that their product equal the number read"""
 
 with open('numbers.txt') as f:
     while f is not None:
